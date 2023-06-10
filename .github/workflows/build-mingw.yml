@@ -12,7 +12,7 @@ jobs:
     runs-on: windows-latest
     env:
       libraryName: libsndfile
-      installationPath: libsndfile-installation
+      cmakeInstallationPath: libsndfile-installation
       tagName: 1.2.0 # target tag
       mingwTargetZip: libsndfile-${{ github.ref_name }}-mingw64-x86_64-posix-seh-rev0-8.1.0.zip
     steps:
